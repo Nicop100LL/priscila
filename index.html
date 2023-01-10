@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <meta name="viewport" content="width=device-width, user-scalable=no initial-scale=1.0, maximun-scale=1, minimum-scale=1.0">
+
+    <link rel="stylesheet" href="Style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <!-- SECCION INICIO -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>/PS/</h1>
+                    <nav id="nav" class="">
+                        <ul id="link">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#formacion" onclick="seleccionar(this)">FORMACION</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+
+                        </ul>
+                    </nav>
+                    <!-- Iconos del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class='fa-solid fa-bars-staggered' style='color: white'></i>
+                    </div>
+
+                    <!-- ICONOS DE LAS REDES SOCIALES -->
+
+                    <div class="redes">
+                        <a href="https://www.instagram.com/priscila.sanabria/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://www.facebook.com/priscila.sanabria.52/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span>Priscila Sanabria Zárate</span>, Psicopedagoga</h2>
+                <p class="descripcion">La mente que se abre a una nueva idea jamás vuelve a su tamaño original.</p>
+                <a href="#portfolio">Ir a Portfolio</a>
+
+            </div>
+
+    </section>
+
+
+     <!-- SOBRE MI -->
+
+     <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/priscila.jpg" alt="">
+            
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola soy <span>Priscila</span></h2>
+            <h3>Psicopedagoga</h3>
+            <p>Soy profesional con más de 8 años de experiencia en el sector de la educación. Poseo excelente capacidad
+                de organización y experiencia en el desarrollo de capacitación profesional, como así también en
+                orientación vocacional con perspectiva clínica psicosocial. Es de mi interés desarrollarme en entornos
+                laborales que se valora el compromiso y la capacidad de trabajo en equipo.</p>
+            <a href="doc/cv.docx" download="CV. Priscila Sanabria">Descargar CV </a>
+        </div>
+    </section>
+
+    <!-- FORMACION -->
+
+    <section class="site-section " id="formacion">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 mb-5">
+					<div class="section-heading text-center">
+						<h2>Formación</h2>
+					</div>
+				</div>
+				<div class="col-md-6">
+					
+					<div class="resume-item mb-4">
+						<span class="date"><span class="icon-calendar"></span> Diciembre - 2014 </span>
+						<h3>Psicopedagoga</h3>
+						<p>Dispone de una sólida formación en lo referente a estrategias de intervención en relación con distintas dificultades vinculadas al aprendizaje en los ámbitos individual, grupal, institucional y comunitario.</p>
+						<span class="school">Universidad de Lomas de Zamora.</span>
+					</div>
+
+                    <div class="resume-item mb-4">
+						<span class="date"><span class="icon-calendar"></span> Agosto - 2016 </span>
+						<h3>Taller de orientación vocacional y técnicas proyectivas de selección de personal.</h3>
+						<p>Taller de Orientación Vocacional busca orientar a los destinatarios brindándoles herramientas significativas para promover un acercamiento al mundo del trabajo y del estudio. <br>20 horas de duración.</p>
+						<span class="school">Universidad de Lomas de Zamora.</span>
+					</div>
+
+					<div class="resume-item mb-4">
+						<span class="date"><span class="icon-calendar"></span> Marzo - 2017</span>
+						<h3>Taller de habilidades adaptativas Vineland</h3>
+						<p>Entrenamiento administración, puntuación y análisis. 8 hs. de duración. A cargo de la Dra. Alba Richaudeu.</p>
+						<span class="school">Lanús oeste, provincia de Buenos Aires.</span>
+					</div>
+
+                    <div class="resume-item mb-4">
+						<span class="date"><span class="icon-calendar"></span> Julio - 2020</span>
+						<h3>Neuropsicología infantil</h3>
+						<p>Jornada de capacitación sobre "Introducción a la Neuropsicología infantil (evaluación y rehabilitación cognitiva)" guiado por la Licenciada Melina Bella, realizado bajo modalidad virtual con una carga horaria de 8 horas.</p>
+						<span class="school">Grupo de estudio y capacitación.</span>
+					</div>
+
+					<div class="resume-item mb-4">
+						<span class="date"><span class="icon-calendar"></span> Abril - 2022 </span>
+						<h3>Proceso de orientación vocacional</h3>
+						<p>Individual en consultorio, grupal en instituciones, talleres para personas con discapacidad.</p>
+						<span class="school">Espacio Psico.</span>
+					</div>
+
+				</div>
+				
+			</div>
+		</div>
+    </section>
+
+
+</body>
+</html>
